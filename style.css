@@ -140,4 +140,20 @@ main{
 footer{
     background-color: purple;
     color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    .left-footer{
+        div{
+            padding-top: 10px;
+        }
+    }
+    .right-footer{
+        display: flex;
+        text-decoration: underline;
+        a{
+            color: white;
+            padding: 15px;
+        }
+    }
 }
