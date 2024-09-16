@@ -8,8 +8,78 @@
 header{
     h1{
         font-family: 'Nerko One', cursive; 
-        color: yellow;
+        color: orange;
         text-shadow: 1px 1px gray;
     }
     padding: 10px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+main{
+    padding-top: 70px;
+    width: 1200px;
+    .description{
+        color: gray;
+    }
+    .rate{
+        i{
+            color: orange;
+        };
+        span{
+            border: solid orange;
+            border-radius: 30px;
+            padding: 10px;
+            color: white;
+            background-color: orange;
+        }
+    }
+    .tumb-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 50px;
+        }
+    }
+    .video-container{
+        iframe{
+            width: 800px;
+            height: 450px;
+        }
+        display: flex;
+        justify-content: space-between;
+    }
+    .info-container{
+        width: 400px;
+        .kcal-info{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 50px 30px 50px;
+            div{
+                background-color: purple;
+                color: white;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            strong{
+                color: orange;
+                font-size: 20px
+            }
+        }
+        #carrot{
+            padding-left: 50px;
+        }
+        .info{
+            padding: 30px;
+            i{
+                color: orange;
+            }
+            div{
+                padding-bottom: 15px;
+            }
+        }
+    }
 }
